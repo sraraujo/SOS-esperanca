@@ -75,7 +75,7 @@ section button {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    width: 300px;
+    width: 400px;
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
