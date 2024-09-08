@@ -1,8 +1,10 @@
-function pesquisarAtleta(){
+function pesquisarCaps(){
     
-    let nome = document.querySelector("#nome-atleta").value;
+    let nome = document.querySelector("#nome-pesquisa").value;
     let section = document.querySelector("#resultados-pesquisa");
+    let totalEncontrado = document.querySelector("#total-encontrado");
     let resultados = '';
+    let aux = 0;
 
     let nomeCaps = "";
     let endereco = "";
@@ -11,16 +13,20 @@ function pesquisarAtleta(){
     
     for (let dado of dados){
 
+        nome = nome.toLowerCase();
         nomeCaps = dado.nome.toLowerCase();
         endereco = dado.endereco.toLowerCase();
         bairro = dado.bairro.toLowerCase();
+        cidade = dado.cidade.toLowerCase();
         contato = dado.contato.toLowerCase();
+
+        console.log(nome);
 
         if (!nome){
             return section.innerHTML = "Digite algo para ser pesquisado!";
         }
 
-        if (nomeCaps.includes(nome) || endereco.includes(nome) || bairro.includes(nome) || contato.includes(nome)){
+        if (nomeCaps.includes(nome) || endereco.includes(nome) || bairro.includes(nome) || contato.includes(nome) || cidade.includes(nome)){
             resultados += `
                             <div class="item-resultado">
                                 <h2> 
@@ -38,6 +44,7 @@ function pesquisarAtleta(){
                                 
                             </div>
             `;
+            aux += 1;
         }
         
         if (!resultados){           
@@ -45,8 +52,8 @@ function pesquisarAtleta(){
         }
 
     };
-
+    totalEncontrado.innerHTML = `<strong> Resultado: ${(aux > 1) ? aux+' CAPS encontrados' : aux+' CAPs encontrado'}` ;
     section.innerHTML = resultados;
-    document.querySelector("#nome-atleta").value = "";
+    document.querySelector("#nome-pesquisa").value = "";
 
 }

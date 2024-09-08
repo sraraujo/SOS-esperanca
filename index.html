@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,31 +12,34 @@
     <link rel="shortcut icon" href="favicon/apple-touch-icon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <h1> Buscar unidade CAPS mais próxima de você </h1>
+        <h1> Buscar unidade CAPS <br> mais próxima de você </h1>
     </header>
 
     <main>
         <section>
-            <input type="text" name="" id="nome-atleta" placeholder="Digite o bairro ou cep">
-            <button onclick="pesquisarAtleta()">  Pesquisar </button>
-        </section> 
-
-        <section class="resultados-pesquisa" id="resultados-pesquisa">
-
+            <input type="text" name="" id="nome-pesquisa" placeholder="Digite o bairro ou cep">
+            <button onclick="pesquisarCaps()"> Pesquisar </button>
         </section>
+        
+        <p id="total-encontrado"></p>
+        
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
     </main>
 
     <footer>
-        <p> 2024 - Setembro Amarelo. Todos os direitos reservados </p>
+        <p> &copy; 2024 - Setembro Amarelo. Todos os direitos reservados </p>
     </footer>
 
     <script src="dados.js"></script>
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>
