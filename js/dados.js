@@ -1,14 +1,5 @@
 let dados =  [
     {
-        nome : "CAPS II",
-        endereco : "Avenida Chanceler Edson Queiroz",
-        bairro : "Rio Novo",
-        cidade : "Cascavel",
-        estado : "Ceará",
-        contato : "(85) 3334-2834",
-        email: "capscascavel@hotmail.com"
-    },
-    {
         nome : "CAPS - Centro de Atenção Psicossocial | SER II",
         endereco : "R. Pinto Madeira, 1550",
         bairro : "Aldeota",

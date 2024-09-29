@@ -1,48 +1,17 @@
-## SOS Esperança - Encontre uma unidade CAPS
+# O que é esse projeto?
 
-**O que faz essa aplicação?**
+O site *SOS Esperença* foi criado ma Imersão Dev com Gemini, e teve por tema o Setembro Amarelo. Pensamos em contribuir com essa campanha levando um pouco de informação e ao mesmo tempo treinando os conecimentos adquirido na imersão.
 
-Precisa encontrar um CAPS rapidinho? Essa aplicação te ajuda a encontrar o CAPS mais próximo de você de forma fácil e rápida! Basta digitar o bairro ou CEP e pronto!
+# Como funciona?
 
-**Como funciona a magia?**
+Na página inicial colocamos algumas informações sobre o tema e disponibilizamos um buscador de Cap's que estão distribuidos em Fortaleza-CE em caso de necessidade. (Obs: Os dados foram retirados do Google, então algumas informações podem estar desatualizadas!)
 
-* **HTML:** A estrutura da página, onde tudo é organizado.
-* **CSS:** Deixa tudo bonitinho com cores e formatações incríveis.
-* **JavaScript:** A inteligência por trás da aplicação, fazendo a busca e mostrando os resultados.
+# Como funciona o Buscador?
 
-**Quer mexer no código?**
+A buscador pesquisa por nome do *bairro*, *caps* ou *endereço*.
 
-1. **Clone o repositório:** Use o Git para baixar o projeto.
-2. **Abra no seu editor de código:** VS Code, Sublime Text... o que você preferir!
-3. **Rode um servidor local:** Para ver a aplicação funcionando.
-4. **Divirta-se explorando!**
+# Tecnologias utilziadas.
 
-**O que você pode fazer?**
-
-* **Adicionar mais dados:** Inclua mais CAPS no arquivo `dados.js`.
-* **Melhorar a interface:** Deixa a aplicação ainda mais bonita com CSS.
-* **Implementar novas funcionalidades:** Adicione um mapa, filtros... seja criativo!
-
-**Dúvidas?**
-
-Abra uma issue aqui no GitHub ou me mande um email.
-
-**Vamos juntos fazer do mundo um lugar mais acessível e acolhedor!**
-
----
-
-### **Detalhes técnicos (opcional):**
-
-* **Tecnologias:** HTML, CSS, JavaScript
-* **Estrutura:** Explique brevemente como o projeto está organizado em pastas e arquivos.
-* **Contribuições:** Crie um guia para quem quiser contribuir com o projeto.
-
-### **Exemplos de formatação Markdown:**
-
-* **Cabeçalhos:**
-  ```markdown
-  # Título principal
-  ## Subtítulo
-  ### Subsubtítulo
-
-
+* HTML
+* CSS
+* Javascript
