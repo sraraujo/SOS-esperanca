@@ -1,10 +1,10 @@
 # O que é esse projeto?
 
-O site *SOS Esperença* foi criado ma Imersão Dev com Gemini, e teve por tema o Setembro Amarelo. Pensamos em contribuir com essa campanha levando um pouco de informação e ao mesmo tempo treinando os conecimentos adquirido na imersão.
+O site *SOS Esperença* foi criado na Imersão Dev com Gemini, e teve como tema o Setembro Amarelo. Pensamos em contribuir com essa campanha levando um pouco de informação e ao mesmo tempo treinando os conhecimentos adquirido.
 
 # Como funciona?
 
-Na página inicial colocamos algumas informações sobre o tema e disponibilizamos um buscador de Cap's que estão distribuidos em Fortaleza-CE em caso de necessidade. (Obs: Os dados foram retirados do Google, então algumas informações podem estar desatualizadas!)
+Na página inicial colocamos algumas informações sobre o tema e disponibilizamos um buscador de Cap's que estão distribuidos em Fortaleza-CE. (Obs: Os dados foram retirados do Google, então algumas informações podem estar desatualizadas!)
 
 # Como funciona o Buscador?
 
